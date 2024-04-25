@@ -17,7 +17,7 @@ install:
   - if [ $WITH_TA_LIBRARY = "yes" ]; then
       ./build_talib_from_source.bash $DEPS_DIR;
     fi
-  - go get github.com/kjx98/go-talib
+  - go get github.com/blzer-org/go-talib
 
 script:
     - go test -v ./...

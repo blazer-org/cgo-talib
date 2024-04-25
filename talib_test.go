@@ -1,10 +1,11 @@
 package talib
 
 import (
-	"github.com/kjx98/go-talib"
 	"math"
 	"reflect"
 	"testing"
+
+	"github.com/blazer-org/go-talib"
 )
 
 func TestInit(t *testing.T) {
@@ -45,7 +46,7 @@ func TestMacd(t *testing.T) {
 func TestIntHandling(t *testing.T) {
 	in := []float64{1, 2, 3, 4, 5, 6, 7, 8}
 	out := MaxIndex(in, 5)
-	want := []int32{0,0,0,0, 4, 5, 6, 7}
+	want := []int32{0, 0, 0, 0, 4, 5, 6, 7}
 	if !reflect.DeepEqual(out, want) {
 		t.Fatalf("MaxIndex got %+v; want %+v", out, want)
 	}

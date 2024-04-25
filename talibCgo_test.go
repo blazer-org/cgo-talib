@@ -8,12 +8,13 @@ package talib
 
 import (
 	"fmt"
-	"github.com/kjx98/go-talib"
 	"math"
 	"path/filepath"
 	"reflect"
 	"runtime"
 	"testing"
+
+	"github.com/blazer-org/go-talib"
 )
 
 var (
