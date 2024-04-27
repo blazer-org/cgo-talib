@@ -3,8 +3,8 @@ A Go(lang) wrapper for TA-Lib(Techinal Analysis Library) which is often used for
 Forked from [d3l3k] (https://godoc.org/github.com/d4l3k/talib)
 http://ta-lib.org/
 
-[![Build Status](https://travis-ci.org/kjx98/cgo-talib.svg?branch=master)](https://travis-ci.org/kjx98/cgo-talib)
-[![GoDoc](https://godoc.org/github.com/kjx98/cgo-talib?status.svg)](https://godoc.org/github.com/kjx98/cgo-talib)
+[![Build Status](https://travis-ci.org/blazer-org/cgo-talib.svg?branch=master)](https://travis-ci.org/blazer-org/cgo-talib)
+[![GoDoc](https://godoc.org/github.com/blazer-org/cgo-talib?status.svg)](https://godoc.org/github.com/blazer-org/cgo-talib)
 
 To use the library you need TA-Lib installed.
 
@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/kjx98/cgo-talib"
+	"github.com/blazer-org/cgo-talib"
 )
 
 func main() {
@@ -30,7 +30,7 @@ func main() {
 Install the dependencies then run
 
 ```
-$ go install github.com/kjx98/cgo-talib
+$ go install github.com/blazer-org/cgo-talib
 ```
 
 ### Dependencies
